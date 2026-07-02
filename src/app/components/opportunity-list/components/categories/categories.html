@@ -1,0 +1,64 @@
+<div class="categories-wrapper">
+
+    <button class="scroll-btn">
+        &#8249;
+    </button>
+
+    <div class="categories">
+
+        <button
+            class="category-btn"
+            [class.active]="selectedCategory==='All'"
+            (click)="selectCategory('All')">
+            All
+        </button>
+
+        <button
+            class="category-btn"
+            [class.active]="selectedCategory==='Playlist'"
+            (click)="selectCategory('Playlist')">
+            Playlist
+        </button>
+
+        <button
+            class="category-btn"
+            [class.active]="selectedCategory==='Publication'"
+            (click)="selectCategory('Publication')">
+            Publication
+        </button>
+
+        <button
+            class="category-btn"
+            [class.active]="selectedCategory==='Radio Play'"
+            (click)="selectCategory('Radio Play')">
+            Radio Play
+        </button>
+
+        <button
+            class="category-btn"
+            [class.active]="selectedCategory==='Contests'"
+            (click)="selectCategory('Contests')">
+            Contests
+        </button>
+
+        <button
+            class="category-btn"
+            [class.active]="selectedCategory==='Live Gig'"
+            (click)="selectCategory('Live Gig')">
+            Live Gig
+        </button>
+
+        <button
+            class="category-btn"
+            [class.active]="selectedCategory==='Content'"
+            (click)="selectCategory('Content')">
+            Content
+        </button>
+
+    </div>
+
+    <button class="scroll-btn">
+        &#8250;
+    </button>
+
+</div>

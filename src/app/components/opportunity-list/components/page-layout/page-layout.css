@@ -1,0 +1,57 @@
+*{
+    box-sizing:border-box;
+}
+
+.opportunity-page{
+    width:100%;
+    min-height:100vh;
+    background:#f5f7fb;
+    padding:32px;
+}
+
+.page-container{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.filter-divider{
+    height:1px;
+    background:#e6e8ef;
+    margin:42px 0 34px;
+}
+
+.filter-row{
+
+    display:flex;
+
+    align-items:center;
+
+    width:100%;
+
+}
+
+app-categories{
+    flex:1;
+}
+
+.filter-actions{
+
+    display:flex;
+    align-items:center;
+    margin-left:40px;
+    gap:22px;
+    flex-shrink:0;
+
+}
+
+app-search{
+    width:190px;      
+    flex:0 0 190px;
+}
+
+app-sort{
+    display:flex;
+    align-items:center;
+    margin-right:12px;
+
+}

@@ -1,0 +1,21 @@
+<div class="tabs-container">
+
+    <button
+        class="tab-btn"
+        [class.active]="activeTab === 'open'"
+        (click)="changeTab('open')">
+
+        Open opportunities
+
+    </button>
+
+    <button
+        class="tab-btn"
+        [class.active]="activeTab === 'upcoming'"
+        (click)="changeTab('upcoming')">
+
+        Upcoming
+
+    </button>
+
+</div>

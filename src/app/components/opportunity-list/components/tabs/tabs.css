@@ -1,0 +1,31 @@
+.tabs-container{
+    display:inline-flex;
+    align-items:center;
+    background:#f4f5f8;
+    border:1px solid #d8dbe3;
+    border-radius:999px;
+    overflow:hidden;
+    margin-bottom:32px;
+}
+
+.tab-btn{
+    border:none;
+    background:transparent;
+    color:#8d93a6;
+    padding:8px 20px;      
+    min-width:170px;        
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.tab-btn.active{
+    background:#4361ee;
+    color:#fff;
+    border-radius:999px;
+}
+
+.tab-btn:hover{
+    background:#eef2ff;
+}

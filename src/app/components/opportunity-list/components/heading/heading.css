@@ -1,0 +1,17 @@
+.heading{
+    margin-bottom:24px;
+}
+
+.title{
+    margin:0;
+    font-size:32px;
+    font-weight:700;
+    color:#222;
+}
+
+.description{
+    margin-top:10px;
+    font-size:15px;
+    color:#666;
+    line-height:1.6;
+}

@@ -1,0 +1,34 @@
+<div class="opportunity-page">
+
+    <div class="page-container">
+
+        <app-banner></app-banner>
+
+        <app-heading></app-heading>
+
+        <app-tabs></app-tabs>
+
+<div class="filter-divider"></div>
+
+<div class="filter-row">
+
+    <app-categories
+    (categorySelected)="filterByCategory($event)"></app-categories>
+
+    <div class="filter-actions">
+
+        <app-search></app-search>
+
+        <app-sort></app-sort>
+
+    </div>
+
+</div>
+
+<app-opportunity-grid
+    [opportunities]="filteredOpportunities">
+</app-opportunity-grid>
+
+<app-footer></app-footer>
+
+</div>

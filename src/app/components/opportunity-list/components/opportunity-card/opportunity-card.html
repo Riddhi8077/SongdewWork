@@ -1,0 +1,41 @@
+<div class="card">
+
+    <div class="card-header">
+
+        <img
+            [src]="opportunity.image"
+            class="logo">
+
+        <div class="content">
+
+            <div class="type">
+                {{ opportunity.type }}
+            </div>
+
+            <h3>
+                {{ opportunity.title }}
+            </h3>
+
+        </div>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="card-footer">
+
+        <span class="days">
+            {{ opportunity.daysLeft }}
+        </span>
+
+        <span class="apply">
+            {{ opportunity.applyDate }}
+        </span>
+
+        <button class="bookmark">
+            ☆
+        </button>
+
+    </div>
+
+</div>

@@ -1,0 +1,57 @@
+<div class="sort-container">
+
+    <span class="sort-label">
+        Sort by:
+    </span>
+
+    <div class="dropdown">
+
+        <button
+            class="dropdown-btn"
+            (click)="toggleDropdown()">
+
+            {{ selectedOption }}
+
+            <span
+                class="arrow"
+                [class.rotate]="isOpen">
+
+                ▼
+
+            </span>
+
+        </button>
+
+        <div
+            class="dropdown-menu"
+            *ngIf="isOpen">
+
+            <div
+                class="dropdown-item"
+                (click)="selectOption('Featured')">
+
+                Featured
+
+            </div>
+
+            <div
+                class="dropdown-item"
+                (click)="selectOption('Latest')">
+
+                Latest
+
+            </div>
+
+            <div
+                class="dropdown-item"
+                (click)="selectOption('Ending soon')">
+
+                Ending soon
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
